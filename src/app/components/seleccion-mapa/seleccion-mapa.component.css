@@ -1,0 +1,33 @@
+.contenedor_mapas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.mapa{
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.mapa1{
+    background-image: url(/assets/alfheim.jpg);
+
+}
+
+.mapa2{
+    background-image: url(/assets/helheim.jpg);
+}
+
+.mapa3{
+    background-image: url(/assets/jottunheim.jpg);
+}
+
+.mapa4{
+    background-image: url(/assets/midgard.jpg);
+}
+
+.mapa5{
+    background-image: url(/assets/muspelheim.jpg);
+}   

@@ -1,0 +1,27 @@
+.contenedor{
+    background-color: beige;
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icono_mapa{
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.descripcion_mapa{
+    margin: 25px;
+}

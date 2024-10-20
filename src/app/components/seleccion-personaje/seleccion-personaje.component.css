@@ -1,0 +1,46 @@
+.fondo{
+    background: url(/assets/imagen-fondo.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+ 
+.personaje{
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.personaje1{
+    background-image: url(/assets/loki.png);
+
+}
+
+.personaje2{
+    background-image: url(/assets/thor.png);
+}
+
+.personaje3{
+    background-image: url(/assets/odin.png);
+}
+
+.personaje4{
+    background-image: url(/assets/heimdall.png);
+}
+
+.personaje5{
+    background-image: url(/assets/hela.png);
+}   
+
+

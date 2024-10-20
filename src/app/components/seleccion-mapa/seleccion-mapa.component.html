@@ -1,0 +1,6 @@
+<div class="letras">Selecciona un mapa</div>
+<div class="contenedor_mapas">
+    <div class="boton_izquierdo_mapas" (click)="anteriorMapa()">Anterior</div>
+    <app-descripcion-mapa [mapa]="mapas[id_mapa]"></app-descripcion-mapa>
+    <div class="boton_derecho_mapas" (click)="siguienteMapa()">Siguiente</div>
+</div>

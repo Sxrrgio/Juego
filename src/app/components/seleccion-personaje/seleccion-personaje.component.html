@@ -1,0 +1,18 @@
+
+<div class="fondo">
+    <div class="letras">Selecciona a tu héroe</div>
+    <div class="contenedor">
+        <div class="boton_izquierdo" (click)="anteriorId()">Anterior</div>
+
+        <app-descripcion [personaje]="personajes[id_personaje]"></app-descripcion>
+
+        <!--div *ngIf="id_personaje==1" class="personaje personaje1"></div>
+        <div *ngIf="id_personaje==2" class="personaje personaje2"></div>
+        <div *ngIf="id_personaje==3" class="personaje personaje3"></div>
+        <div *ngIf="id_personaje==4" class="personaje personaje4"></div>
+        <div *ngIf="id_personaje==5" class="personaje personaje5"></div>-->
+        <div class="boton_derecho" (click)="siguienteId()">Siguiente</div>
+    </div>
+
+    <button (click)="mapas()">Mapas</button>
+</div>
